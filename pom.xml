@@ -7,6 +7,18 @@
   <version>1.0-SNAPSHOT</version>
   <name>aarvitex WebApp</name>
   <url>http://maven.apache.org</url>
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>maven-snapshots</id>
+      <url>http://54.210.113.62:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <Repository>
+      <id>maven-releases</id>
+      <url>http://54.210.113.62:8081/repository/maven-releases/</url>
+    </Repository>
+  </distributionManagement>
+  
   <dependencies>
     <dependency>
      <groupId>org.sonarsource.scanner.maven</groupId>
