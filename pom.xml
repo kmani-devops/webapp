@@ -11,11 +11,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>maven-snapshots</id>
-      <url>http://54.205.53.53:8081/repository/maven-snapshots/</url>
+      <url>http://98.81.202.75:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>maven-releases</id>
-      <url>http://54.205.53.53:8081/repository/maven-releases/</url>
+      <url>http://98.81.202.75:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
   
@@ -44,7 +44,7 @@
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
-                  http://54.205.53.53:9000
+                  http://98.81.202.75:9000
                 </sonar.host.url>
             </properties>
         </profile>
